@@ -3,4 +3,10 @@
 body {
   box-sizing: border-box;
   overflow-x: hidden;
+  background-color: oklch(98.7% 0.022 95.277);
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
