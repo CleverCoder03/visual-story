@@ -2,6 +2,7 @@ import React from "react";
 import Headline from "./Headline";
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./Button";
 
 const services = [
   {
@@ -60,9 +61,7 @@ const Services = () => {
 
       <div className="flex justify-center mt-5">
         <Link href="/events">
-            <button className="mt-8 px-8 py-3 bg-pink-600 hover:bg-pink-700 text-white font-semibold rounded-lg shadow-lg transition duration-300 cursor-pointer">
-          More Events
-        </button>
+            <Button title={"More Events"} />
         </Link>
       </div>
     </div>

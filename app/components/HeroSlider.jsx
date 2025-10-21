@@ -4,6 +4,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Button from "./Button";
 
 // Your list of background images
 const images = [
@@ -54,9 +55,7 @@ const HeroSlider = () => {
           We don't just take pictures; we tell stories. Your story.
         </p>
         <Link href="/gallery">
-            <button className="mt-8 px-8 py-3 bg-pink-600 hover:bg-pink-700 text-white font-semibold rounded-lg shadow-lg transition duration-300 cursor-pointer">
-          View Our Work
-        </button>
+            <Button title={"View Our Work"} />
         </Link>
       </div>
     </div>

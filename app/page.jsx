@@ -1,7 +1,11 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import HeroSlider from "./components/HeroSlider";
 import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
+import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
@@ -10,7 +14,10 @@ export default function Home() {
       <HeroSlider />
       <About />
       <Services />
-      <div className="h-dvh"></div>
+      {/* <Portfolio /> */}
+      <Testimonial />
+      <Contact />
+      <Footer />
     </>
   );
 }
