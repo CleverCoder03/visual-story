@@ -66,10 +66,14 @@ const Navbar = () => {
           </div>
 
           <div
-            className="lg:hidden cursor-pointer font-sans font-bold text-xl"
+            className="lg:hidden relative h-7 w-10 cursor-pointer font-sans font-bold text-xl"
             onClick={() => setToggle(!toggle)}
           >
-            {toggle ? "Close" : "Menu"}
+            <div className="absolute h-full w-full top-0 left-0 [&_div]:h-1 [&_div]:bg-black/70 [&_div]:rounded-md flex flex-col justify-between ">
+              <div className={`${toggle ? "rotate-45 absolute w-full h-1 top-1/2 transition-all duration-300 ease-out" :""}`}></div>
+              <div className={`${toggle ? "hidden" :"block"}`}></div>
+              <div className={`${toggle ? "-rotate-45 absolute w-full h-1 top-1/2 transition-all duration-300 ease-out" :""}`}></div>
+            </div>
           </div>
         </div>
       </div>

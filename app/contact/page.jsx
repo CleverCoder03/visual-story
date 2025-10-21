@@ -5,6 +5,9 @@ const ContactPage = () => {
   return (
     <div>
       <Navbar />
+      <div>
+        
+      </div>
     </div>
   )
 }
