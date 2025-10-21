@@ -1,11 +1,16 @@
-import Hero from "./components/Hero";
+import About from "./components/About";
+import HeroSlider from "./components/HeroSlider";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Navbar />
-      <Hero />
-    </main>
+      <HeroSlider />
+      <About />
+      <Services />
+      <div className="h-dvh"></div>
+    </>
   );
 }

@@ -46,16 +46,16 @@ const HeroSlider = () => {
       ))}
 
       {/* Optional: Add content on top of the slider */}
-      <div className="absolute inset-0 z-2 flex flex-col items-center justify-center text-amber-50 bg-black/50 bg-opacity-40 p-4 mt-20">
+      <div className="absolute inset-0 z-2 flex flex-col items-center justify-center text-amber-50 bg-black/50 bg-opacity-40 p-4 mt-20 px-6 md:px-10 lg:px-18 xl:px-28">
         <h1 className="text-4xl md:text-6xl font-bold text-center mb-4 font-serif leading-[1.2]">
           Crafting Your Timeless Visual Legacy.
         </h1>
         <p className="hidden lg:block text-lg md:text-xl text-center max-w-2xl">
           We don't just take pictures; we tell stories. Your story.
         </p>
-        <Link href="/contact">
+        <Link href="/gallery">
             <button className="mt-8 px-8 py-3 bg-pink-600 hover:bg-pink-700 text-white font-semibold rounded-lg shadow-lg transition duration-300 cursor-pointer">
-          Contact us
+          View Our Work
         </button>
         </Link>
       </div>
