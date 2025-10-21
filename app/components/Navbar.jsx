@@ -83,7 +83,7 @@ const Navbar = () => {
             initial={{ y: "-100%" }}
             animate={{ y: 0 }}
             transition={{ ease: "easeInOut", duration: 0.5 }}
-            className="absolute z-4 top-0 left-0 h-full w-full bg-white flex justify-center items-center"
+            className="absolute z-4 top-0 left-0 h-dvh w-full bg-white flex justify-center items-center"
           >
             <div className="flex justify-center items-center flex-col gap-8 font-bold text-2xl">
               {navLinks.map((link) => (
