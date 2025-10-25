@@ -5,6 +5,10 @@ const GalleryPage = () => {
   return (
     <div>
       <Navbar />
+      {/* HERO */}
+      {/* GALLERY */}
+      {/* CONTACT */}
+      {/* FOOTER */}
     </div>
   )
 }
