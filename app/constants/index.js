@@ -1,6 +1,8 @@
 export const events = [
   {
     id: 1,
+    alt: "wedding",
+    imgSrc: "/wedding.jpg",
     title: "Weddings",
     desc: "Your forever starts here. From the first glance to the final dance, we believe in capturing the grand gestures and intimate whispers that make your story unique. Our team documents your entire journey with an artistic and unobtrusive eye.",
     headline: "Our Wedding Services Include",
@@ -33,6 +35,8 @@ export const events = [
   },
   {
     id: 2,
+    alt: "events",
+    imgSrc: "/event.jpg",
     title: "Events",
     desc: "We document the moments that matter, from major corporate milestones to cherished family celebrations. Our team blends in, capturing the atmosphere, the emotion, and the key details that make your event one to remember.",
     headline: "Our Event Services Include",
@@ -61,6 +65,8 @@ export const events = [
   },
   {
     id: 3,
+    alt: "interior-shoots",
+    imgSrc: "/interior.jpg",
     title: "Interior & Architect Shoots",
     desc: "We capture the essence of your space. Our photography highlights the design, light, and unique character of every property, from private homes to luxury resorts. Perfect for designers, architects, and hospitality brands.",
     headline: "We Specialize In",
@@ -85,6 +91,8 @@ export const events = [
   },
   {
     id: 4,
+    alt: "product&commercials",
+    imgSrc: "/product.jpg",
     title: "Product & Commercial",
     desc: "Art that sells. We create clean, striking, and high-end imagery that elevates your brand and makes your products irresistible. From delicious food to delicate jewellery, we style and shoot with precision.",
     headline: "Our Commercial Services Include",
@@ -109,6 +117,8 @@ export const events = [
   },
   {
     id: 5,
+    alt: "fashion&portraits",
+    imgSrc: "/fashion.jpg",
     title: "Fashion & Portraits",
     desc: "Express your style. We collaborate with models, brands, and individuals to create bold, expressive, and artistic portraits. Whether it's for an editorial, a lookbook, or a personal portfolio, we bring your vision to life.",
     headline: "Our Fashion Services Include",
