@@ -19,3 +19,8 @@ body {
   align-items: center;
   background-color: #222;
 }
+
+:root{
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+}

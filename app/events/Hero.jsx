@@ -5,37 +5,37 @@ const categories = [
   {
     id: 1,
     name: "Wedding",
-    link: "wedding",
+    link: "#wedding",
   },
   {
     id: 2,
     name: "Events",
-    link: "events",
+    link: "#events",
   },
   {
     id: 3,
     name: "Interior Shoots",
-    link: "interior-shoots",
+    link: "#interior-shoots",
   },
   {
     id: 4,
     name: "Product & Commercials",
-    link: "product&commercials",
+    link: "#product&commercials",
   },
   {
     id: 5,
     name: "Fashio & Portraits",
-    link: "fashion&portraits",
+    link: "#fashion&portraits",
   },
 ];
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-full bg-gray-900">
+    <div className="relative h-screen w-full bg-black/95">
       <Image
         src="/events.jpg"
         alt="about banner"
-        className="absolute object-cover lg:object-top opacity-50"
+        className="absolute object-cover lg:object-top opacity-40"
         sizes="(max-width: 786px) 100vw, 100vw"
         fill
       />

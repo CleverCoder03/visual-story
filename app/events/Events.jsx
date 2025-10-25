@@ -6,6 +6,7 @@ const Events = () => {
     <div className="px-6 md:px-10 lg:px-18 xl:px-28">
       {events.map((event) => (
         <div
+          id={event.alt}
           key={event.id}
           className="border-b border-b-gray-400 py-20 lg:py-25"
         >
