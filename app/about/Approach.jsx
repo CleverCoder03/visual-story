@@ -1,0 +1,36 @@
+import Image from "next/image";
+import React from "react";
+
+const Approach = () => {
+  return (
+    <div className="">
+      <div className="flex justify-center">
+        <div className="overflow-hidden relative w-90 h-80 shadow-2xl rounded-md">
+          <Image
+            src="/approach.jpg"
+            alt="Approach"
+            className="object-cover"
+            fill
+          />
+        </div>
+      </div>
+
+      <div className="mt-10">
+        <div className="text-pink-600 text-center [&>h1]:text-3xl lg:[&>h1]:text-4xl [&>h1]:font-serif font-semibold">
+          <h1>Our Approach</h1>
+          <p>Cinematic & Personal</p>
+        </div>
+        <p className="mt-5 text-center font-sans lg:text-lg">
+          Our style is a fusion of documentary realism and cinematic beauty. We
+          immerse ourselves in your world to understand the nuances that make
+          your story unique. This allows us to anticipate moments before they
+          happen, capturing the raw emotion and subtle elegance that define you.
+          Working as a team allows us to capture your story from multiple
+          perspectives, ensuring no moment is missed.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Approach;
