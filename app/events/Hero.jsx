@@ -34,7 +34,7 @@ const Hero = () => {
     <div className="relative h-screen w-full bg-black/95">
       <Image
         src="/events.jpg"
-        alt="about banner"
+        alt="Event banner"
         className="absolute object-cover lg:object-top opacity-40"
         sizes="(max-width: 786px) 100vw, 100vw"
         fill
