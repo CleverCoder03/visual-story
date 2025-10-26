@@ -3,9 +3,9 @@ import React from "react";
 
 const Approach = () => {
   return (
-    <div className="">
+    <div className="lg:py-10 lg:flex lg:flex-row-reverse lg:justify-center lg:items-center lg:gap-10">
       <div className="flex justify-center">
-        <div className="overflow-hidden relative w-90 h-80 shadow-2xl rounded-md">
+        <div className="overflow-hidden relative w-90 h-80 lg:h-110 shadow-2xl rounded-md">
           <Image
             src="/approach.jpg"
             alt="Approach"
@@ -15,7 +15,7 @@ const Approach = () => {
         </div>
       </div>
 
-      <div className="mt-10">
+      <div className="mt-10 lg:mt-0 lg:max-w-2xl">
         <div className="text-pink-600 text-center [&>h1]:text-3xl lg:[&>h1]:text-4xl [&>h1]:font-serif font-semibold">
           <h1>Our Approach</h1>
           <p>Cinematic & Personal</p>

@@ -22,9 +22,9 @@ const Choose = () => {
       <div className="text-pink-600 text-center [&>h1]:text-3xl lg:[&>h1]:text-4xl [&>h1]:font-serif font-semibold">
         <h1>Why choose us?</h1>
       </div>
-      <div className="pt-10 lg:pt-15 flex flex-col gap-5">
+      <div className="pt-10 flex flex-col lg:flex-row gap-5 lg:gap-10">
         {reasons.map((reason) => (
-          <div key={reason.id} className="bg-white shadow-md rounded-md flex gap-5 py-4 px-2 ">
+          <div key={reason.id} className="bg-white shadow-md rounded-md flex gap-5 py-4 px-2 lg:px-4 lg:py-6 lg:w-1/3">
             <div className="text-pink-600 font-sans text-xl lg:text-2xl font-bold">
               {reason.id}.
             </div>

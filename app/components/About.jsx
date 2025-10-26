@@ -13,7 +13,7 @@ const About = () => {
             More Than Photographers, <br /> We Are Visual Narrators.
           </h1>
         </div>
-        <div className="lg:flex lg:justify-center lg:gap-[10vw] lg:items-center">
+        <div className="lg:flex lg:justify-center lg:gap-[8vw] lg:items-center">
           <div className="flex justify-center items-center">
             <div className="relative h-120 w-90">
               <div className="absolute top-0 h-full w-full right-0 bg-red-600 shadow-2xl rounded-md overflow-hidden">
@@ -27,7 +27,8 @@ const About = () => {
             </div>
           </div>
           <div className="mt-10 lg:mt-0">
-            <p className="text-center font-sans text-lg lg:max-w-90">
+            <Headline title={"About us"} />
+            <p className="text-center font-sans text-lg lg:max-w-100">
               At Visual Story, we believe photography is an art form a delicate
               balance of light, emotion, and narrative. Founded on the simple
               belief that every story is unique, our passion is to find that
