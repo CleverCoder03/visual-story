@@ -68,7 +68,7 @@ export default function TestimonialSlider() {
         {testimonials.map((testy) => (
           <SwiperSlide key={testy.id}>
             <div className="h-full w-full bg-amber-50 font-sans flex flex-col justify-center items-center ">
-              <div className="lg:w-150 bg-white shadow-md rounded-xl flex flex-col items-center py-10">
+              <div className="w-full lg:w-150 bg-white shadow-md rounded-xl flex flex-col items-center py-10">
                 <p className="w-90 lg:w-120 text-center">{testy.review}</p>
                 <div className="mt-10">
                   <p>⭐⭐⭐⭐⭐</p>
