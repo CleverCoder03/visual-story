@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
         </div>
       </div>
-      <p className="text-center py-1.5 bg-pink-100">&copy; Visual Story. All rights reserved</p>
+      <p className="text-center py-1.5">&copy; Visual Story. All rights reserved</p>
     </div>
   );
 };
