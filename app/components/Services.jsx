@@ -33,10 +33,10 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="mt-10 relative px-6 md:px-10 lg:px-18 xl:px-28">
+    <div className="mt-10 lg:mt-20 relative px-6 md:px-10 lg:px-18 xl:px-28">
       <Headline title={"Our Services"} />
 
-      <div className="flex flex-col lg:flex-row gap-10 justify-center items-center">
+      <div className="flex flex-col flex-wrap lg:flex-row gap-10 justify-center items-center">
         {services.map((service) => (
           <div key={service.id} className="w-90 overflow-hidden shadow-xl rounded-md">
             <div className="relative w-full h-60">
