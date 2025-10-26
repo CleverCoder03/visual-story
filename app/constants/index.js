@@ -62,7 +62,7 @@ export const events = [
         service: "Birthday Parties",
       },
       {
-        id: 5,
+        id: 6,
         service: "Maternity",
       },
     ],
