@@ -28,8 +28,8 @@ const socials = [
 const Footer = () => {
   return (
     <div className="mt-15 lg:mt-20 bg-white shadow-2xl ">
-      <div className="relative px-6 md:px-10 lg:px-18 xl:px-28 flex flex-col gap-8 py-10">
-        <div>
+      <div className="relative px-6 md:px-10 lg:px-18 xl:px-28 flex flex-col gap-8 py-10 md:flex-row md:justify-between">
+        <div className="w-fit">
           <Link href="/">
             <div className="relative size-20">
               <Image src="/logo.png" alt="logo" fill />
@@ -41,7 +41,7 @@ const Footer = () => {
           <h1 className="font-serif font-semibold text-pink-600">Socials</h1>
           <div className="flex flex-col gap-2 mt-2">
             {socials.map((social) => (
-              <Link key={social.id} href={social.link} className="underline">
+              <Link key={social.id} href={social.link} className="underline w-fit">
                 {social.name}
               </Link>
             ))}
@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
         </div>
       </div>
-      <p className="text-center py-1.5">&copy; Visual Story. All rights reserved</p>
+      <p className="text-center py-1.5 bg-pink-100">&copy; Visual Story. All rights reserved</p>
     </div>
   );
 };
