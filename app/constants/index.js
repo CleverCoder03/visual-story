@@ -1,3 +1,5 @@
+import { id } from "zod/v4/locales";
+
 export const events = [
   {
     id: 1,
@@ -143,6 +145,42 @@ export const events = [
         id: 4,
         service: "Personal Portraits",
       },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Sahil & Sonam",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ducimus! In, maxime odit et vel vero laboriosam illum dolores labore itaque ipsa ut, eveniet amet repellendus commodi eligendi optio obcaecati? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iste impedit blanditiis amet voluptatum maxime quo, sapiente nulla quia dolorem vel autem corrupti iusto quibusdam soluta.",
+    images: [
+      { id: 1, src: "/services-1.jpg", alt: "Project 1" },
+      { id: 2, src: "/services-2.jpg", alt: "Project 2" },
+      { id: 3, src: "/services-3.jpg", alt: "Project 3" },
+      { id: 4, src: "/services-4.jpg", alt: "Project 4" }
+    ],
+  },
+  {
+    id: 2,
+    title: "Ankit & Akansha",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ducimus! In, maxime odit et vel vero laboriosam illum dolores labore itaque ipsa ut, eveniet amet repellendus commodi eligendi optio obcaecati? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iste impedit blanditiis amet voluptatum maxime quo, sapiente nulla quia dolorem vel autem corrupti iusto quibusdam soluta.",
+    images: [
+      { id: 1, src: "/services-1.jpg", alt: "Project 1" },
+      { id: 2, src: "/services-2.jpg", alt: "Project 2" },
+      { id: 3, src: "/services-3.jpg", alt: "Project 3" },
+      { id: 4, src: "/services-4.jpg", alt: "Project 4" }
+    ],
+  },
+  {
+    id: 3,
+    title: "Soham & Shilpa",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ducimus! In, maxime odit et vel vero laboriosam illum dolores labore itaque ipsa ut, eveniet amet repellendus commodi eligendi optio obcaecati? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iste impedit blanditiis amet voluptatum maxime quo, sapiente nulla quia dolorem vel autem corrupti iusto quibusdam soluta.",
+    images: [
+      { id: 1, src: "/services-1.jpg", alt: "Project 1" },
+      { id: 2, src: "/services-2.jpg", alt: "Project 2" },
+      { id: 3, src: "/services-3.jpg", alt: "Project 3" },
+      { id: 4, src: "/services-4.jpg", alt: "Project 4" }
     ],
   },
 ];
