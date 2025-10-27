@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Philosohpy from "./Philosohpy";
 import Approach from "./Approach";
 import Choose from "./Choose";
+import Portfolio from "../components/Portfolio";
 
 const AboutPage = () => {
   return (
@@ -21,6 +22,7 @@ const AboutPage = () => {
         <Choose />
       </div>
       {/* GALLERY PAGE */}
+      <Portfolio />
       {/* CONTACT */}
       <Contact />
       {/* FOOTER */}

@@ -1,3 +1,5 @@
+import Headline from "../components/Headline";
+
 const reasons = [
   {
     id: "01",
@@ -19,9 +21,7 @@ const reasons = [
 const Choose = () => {
   return (
     <div className="pt-15 lg:pt-20">
-      <div className="text-pink-600 text-center [&>h1]:text-3xl lg:[&>h1]:text-4xl [&>h1]:font-serif font-semibold">
-        <h1>Why choose us?</h1>
-      </div>
+      <Headline title={"Why choose us?"} />
       <div className="pt-10 flex flex-col lg:flex-row gap-5 lg:gap-10">
         {reasons.map((reason) => (
           <div key={reason.id} className="bg-white shadow-md rounded-md flex gap-5 py-4 px-2 lg:px-4 lg:py-6 lg:w-1/3">

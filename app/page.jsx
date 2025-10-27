@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSlider />
       <About />
       <Services />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <Testimonial />
       <Contact />
       <Footer />
