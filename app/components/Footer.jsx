@@ -38,10 +38,10 @@ const Footer = () => {
         </div>
 
         <div>
-          <h1 className="font-serif font-semibold text-pink-600">Socials</h1>
+          <h1 className="font-serif font-semibold text-brand-black-og">Socials</h1>
           <div className="flex flex-col gap-2 mt-2">
             {socials.map((social) => (
-              <Link key={social.id} href={social.link} className="underline w-fit">
+              <Link key={social.id} href={social.link} className="underline w-fit text-brand-black-og/80">
                 {social.name}
               </Link>
             ))}
@@ -50,16 +50,16 @@ const Footer = () => {
 
         <div>
             <div>
-                <h1 className="font-serif font-semibold text-pink-600">Contact</h1>
-                <p>+91 9136365831 / +91 7249566227</p>
+                <h1 className="font-serif font-semibold text-brand-black-og">Contact</h1>
+                <p className="text-brand-black-og/80">+91 9136365831 / +91 7249566227</p>
             </div>
             <div>
-                <h1 className="font-serif font-semibold text-pink-600">Email</h1>
-                <a href="mailto:contact@visualstory.in">contact@visualstory.in</a>
+                <h1 className="font-serif font-semibold text-brand-black-og">Email</h1>
+                <a href="mailto:contact@visualstory.in" className="text-brand-black-og/80">contact@visualstory.in</a>
             </div>
             <div>
-                <h1 className="font-serif font-semibold text-pink-600">Location</h1>
-                <p>Pune, Maharashtra</p>
+                <h1 className="font-serif font-semibold text-brand-black-og">Location</h1>
+                <p className="text-brand-black-og/80">Pune, Maharashtra</p>
             </div>
         </div>
       </div>

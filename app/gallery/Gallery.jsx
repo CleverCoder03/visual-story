@@ -12,11 +12,11 @@ const Gallery = () => {
         <div key={project.id} className="mb-16 lg:mb-24">
           <div>
             <div>
-              <h1 className="text-center lg:text-left text-4xl font-serif font-bold text-pink-600">
+              <h1 className="text-center lg:text-left text-4xl font-serif font-bold text-brand-black-og">
                 {project.title} {/* Dynamic Title */}
               </h1>
               <div className="mt-5 lg:mt-10">
-                <p className="font-sans text-center lg:text-left">
+                <p className="font-sans text-center lg:text-left text-brand-black-og/80">
                   {project.desc} {/* Dynamic Description */}
                 </p>
               </div>

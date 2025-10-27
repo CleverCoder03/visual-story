@@ -30,7 +30,7 @@ export default function GallerySLider ({ images }) {
       modules={[Navigation, Pagination, Autoplay]}
       className="!pb-10"
       style={{
-          "--swiper-pagination-color": "oklch(59.2% 0.249 0.584)", // Your active color
+          "--swiper-pagination-color": "#222", // Your active color
           "--swiper-navigation-color": "#ffffff"
         }}
       // Add breakpoints

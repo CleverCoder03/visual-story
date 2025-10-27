@@ -15,7 +15,7 @@ const Events = () => {
           key={event.id}
           className="border-b border-b-gray-400 py-20 lg:py-25"
         >
-          <div className="text-pink-600 [&>h1]:text-3xl lg:[&>h1]:text-4xl [&>h1]:font-serif font-semibold lg:text-center">
+          <div className="text-brand-black-og [&>h1]:text-3xl lg:[&>h1]:text-4xl [&>h1]:font-serif font-semibold lg:text-center">
             <h1>{event.title}</h1>
           </div>
 
@@ -26,9 +26,9 @@ const Events = () => {
                 </div>
             </div>
             <div className="lg:max-w-110 lg:pb-5">
-              <p className="font-sans lg:text-lg">{event.desc}</p>
+              <p className="font-sans lg:text-lg text-brand-black-og/80">{event.desc}</p>
               <div className="mt-5">
-                <div className="text-pink-600 text-lg font-serif font-semibold">
+                <div className="text-brand-black-og text-lg font-serif font-semibold">
                   <h1>{event.headline}</h1>
                 </div>
                 <ul className="list-disc mt-2 bg-white py-2 px-6 shadow-md rounded-md lg:space-y-2">

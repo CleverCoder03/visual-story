@@ -64,9 +64,9 @@ const Navbar = () => {
                 href={link.link}
                 className={`${
                   pathName === link.link
-                    ? "underline decoration-1 underline-offset-4 text-pink-600 font-black"
+                    ? "underline decoration-1 underline-offset-4 text-brand-black-og font-black"
                     : ""
-                }`}
+                } text-brand-black-og/90`}
               >
                 {link.name}
               </Link>
@@ -113,7 +113,7 @@ const Navbar = () => {
                   href={link.link}
                   className={`${
                     pathName === link.link
-                      ? "underline decoration-2 underline-offset-6 text-pink-600"
+                      ? "underline decoration-2 underline-offset-6 text-brand-black-og"
                       : ""
                   }`}
                   aria-label={link.name}

@@ -299,7 +299,7 @@ export default function VisualStoryContactForm() {
                       value={event}
                       checked={formData.eventsToCover.includes(event)}
                       onChange={handleCheckboxChange}
-                      className="rounded border-gray-300 text-pink-600 shadow-sm focus:ring-pink-500"
+                      className="rounded border-gray-300 text-brand-black-og shadow-sm focus:ring-brand-black-og/80"
                     />
                     <span>{event}</span>
                   </label>
@@ -338,7 +338,7 @@ export default function VisualStoryContactForm() {
                       value={method}
                       checked={formData.contactMethod.includes(method)}
                       onChange={handleCheckboxChange}
-                      className="rounded border-gray-300 text-pink-600 shadow-sm focus:ring-pink-500"
+                      className="rounded border-gray-300 text-brand-black-ogshadow-sm focus:ring-brand-black-og/80"
                     />
                     <span>{method}</span>
                   </label>
@@ -364,7 +364,7 @@ export default function VisualStoryContactForm() {
                 type="submit"
                 // --- MODIFIED: Disable button if script is not loaded ---
                 disabled={isSubmitting || !isEmailJsLoaded}
-                className="cursor-pointer w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-pink-600 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 disabled:bg-gray-400 transition-all"
+                className="cursor-pointer w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-brand-black-og hover:bg-brand-black-dark focus:outline-none focus:ring-2 focus:ring-brand-black-og/80 focus:ring-offset-2 disabled:bg-gray-400 transition-all"
               >
                 {buttonText} 
               </button>

@@ -9,14 +9,14 @@ const About = () => {
       <div>
         {/* <Headline title={"About us"} /> */}
         <div className="py-15 lg:py-20">
-          <h1 className="text-center font-serif font-black text-pink-600 text-4xl">
+          <h1 className="text-center font-serif font-black text-brand-black-og text-4xl">
             More Than Photographers, <br /> We Are Visual Narrators.
           </h1>
         </div>
         <div className="lg:flex lg:justify-center lg:gap-[8vw] lg:items-center">
           <div className="flex justify-center items-center">
             <div className="relative h-120 w-90">
-              <div className="absolute top-0 h-full w-full right-0 bg-red-600 shadow-2xl rounded-md overflow-hidden">
+              <div className="absolute top-0 h-full w-full right-0 bg-gray-600 shadow-2xl rounded-md overflow-hidden">
                 <Image
                   src="/about-1.jpg"
                   alt="about-2"
@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <div className="mt-10 lg:mt-0">
             <Headline title={"About us"} />
-            <p className="text-center font-sans text-lg lg:max-w-100">
+            <p className="text-center text-brand-black-og/80 font-sans text-lg lg:max-w-100">
               At Visual Story, we believe photography is an art form a delicate
               balance of light, emotion, and narrative. Founded on the simple
               belief that every story is unique, our passion is to find that
@@ -38,7 +38,7 @@ const About = () => {
               <span>
                 <Link
                   href="/about"
-                  className="cursor-pointer text-pink-600 font-sans font-bold underline"
+                  className="cursor-pointer text-brand-black-og font-sans font-bold underline"
                 >
                   Learn more
                 </Link>

@@ -25,14 +25,14 @@ const Choose = () => {
       <div className="pt-10 flex flex-col lg:flex-row gap-5 lg:gap-10">
         {reasons.map((reason) => (
           <div key={reason.id} className="bg-white shadow-md rounded-md flex gap-5 py-4 px-2 lg:px-4 lg:py-6 lg:w-1/3">
-            <div className="text-pink-600 font-sans text-xl lg:text-2xl font-bold">
+            <div className="text-brand-black-og font-sans text-xl lg:text-2xl font-bold">
               {reason.id}.
             </div>
             <div>
-              <h1 className="text-pink-600 font-sans text-xl lg:text-2xl font-bold">
+              <h1 className="text-brand-black-og font-sans text-xl lg:text-2xl font-bold">
                 {reason.title}
               </h1>
-              <p className="mt-4 lg:mt-6">
+              <p className="mt-4 lg:mt-6 text-brand-black-og/80">
                 {reason.desc}
               </p>
             </div>

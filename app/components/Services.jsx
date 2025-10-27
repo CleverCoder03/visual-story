@@ -48,10 +48,10 @@ const Services = () => {
               />
             </div>
             <div className="relative rounded-t-2xl bg-white -mt-5 py-8 px-4">
-              <h1 className="font-serif text-pink-600 font-semibold text-xl">
+              <h1 className="font-serif text-brand-black-og font-semibold text-xl">
                 {service.name}
               </h1>
-              <p className="mt-4">
+              <p className="mt-4 text-brand-black-og/80">
                 {service.desc}
               </p>
             </div>

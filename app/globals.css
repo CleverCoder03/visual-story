@@ -1,9 +1,20 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand-pink-og: #EC4899;
+  --color-brand-pink-dark: #EC4899;
+  --color-brand-black-og: #222;
+  --color-brand-black-dark: #111;
+  --color-brand-white-og: #ffffff;
+  
+  /* I also added your original OKLCH color as a variable */
+  --color-brand-offwhite: oklch(98.7% 0.022 95.277);
+}
+
 body {
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: oklch(98.7% 0.022 95.277);
+  background-color: #fffefc;
 }
 
 @theme inline {

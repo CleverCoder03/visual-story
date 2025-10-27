@@ -24,7 +24,7 @@ const categories = [
   },
   {
     id: 5,
-    name: "Fashio & Portraits",
+    name: "Fashion & Portraits",
     link: "#fashion&portraits",
   },
 ];
@@ -55,7 +55,7 @@ const Hero = () => {
               <Link
               key={category.id}
                 href={`events/${category.link}`}
-                className="px-4 py-1.5 bg-pink-600 hover:bg-pink-700 text-white font-semibold rounded-lg shadow-lg transition duration-300 cursor-pointer text-sm"
+                className="px-4 py-1.5 bg-brand-black-og hover:bg-brand-black-dark text-white font-semibold rounded-lg shadow-lg transition duration-300 cursor-pointer text-sm"
               >
                 {category.name}
               </Link>
