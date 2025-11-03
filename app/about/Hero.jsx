@@ -14,7 +14,7 @@ const Hero = () => {
                 </h1>
             </div>
             <Link href="/contact">
-                <Button title={"Contact us"} />
+                <Button title={"Contact us"} className={"!bg-[#fff] !hover:bg-[#fffefc] !text-black"}/>
             </Link>
         </div>
     </div>

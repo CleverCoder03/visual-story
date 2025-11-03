@@ -55,7 +55,7 @@ const HeroSlider = () => {
           We don't just take pictures; we tell stories. Your story.
         </p>
         <Link href="/gallery">
-            <Button title={"View Our Work"} />
+            <Button title={"View Our Work"} className={"!bg-[#fff] !hover:bg-[#fffefc] !text-black"}/>
         </Link>
       </div>
     </div>
