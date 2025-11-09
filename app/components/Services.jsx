@@ -9,25 +9,25 @@ const services = [
     id: 1,
     name: "Weddings & Pre-Wedding",
     desc: "Capturing the grand gestures and intimate whispers of your biggest day.",
-    image: "/header-bg-last.jpg",
+    image: "/header-bg-last.JPG",
   },
   {
     id: 2,
     name: "Events & Parties",
     desc: "From birthdays to baby showers, we preserve the joy of every celebration.",
-    image: "/parties.jpg",
+    image: "/parties.JPG",
   },
   {
     id: 3,
     name: "Portraits & Fashion",
     desc: "Expressive, artistic portraiture that captures the soul of the subject.",
-    image: "/portrait-4.jpg",
+    image: "/portrait-4.JPG",
   },
   {
     id: 4,
     name: "Commercial",
     desc: "High-end photography for Products, Food, Architecture, and Interiors.",
-    image: "/services-4.jpg",
+    image: "/services-4.JPG",
   },
 ];
 

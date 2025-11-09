@@ -4,7 +4,7 @@ export const events = [
   {
     id: 1,
     alt: "wedding",
-    imgSrc: "/196A4952.jpg",
+    imgSrc: "/196A4952.JPG",
     title: "Weddings",
     desc: "Your forever starts here. From the first glance to the final dance, we believe in capturing the grand gestures and intimate whispers that make your story unique. Our team documents your entire journey with an artistic and unobtrusive eye.",
     headline: "Our Wedding Services Include",
