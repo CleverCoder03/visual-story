@@ -27,7 +27,7 @@ const services = [
     id: 4,
     name: "Commercial",
     desc: "High-end photography for Products, Food, Architecture, and Interiors.",
-    image: "/services-4.JPG",
+    image: "/services-4.jpg",
   },
 ];
 
