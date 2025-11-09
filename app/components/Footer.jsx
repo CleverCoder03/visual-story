@@ -1,3 +1,4 @@
+import { InstagramIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -8,21 +9,21 @@ const socials = [
     name: "Instagram",
     link: "/",
   },
-  {
-    id: 2,
-    name: "YouTube",
-    link: "/",
-  },
-  {
-    id: 3,
-    name: "Twitter",
-    link: "/",
-  },
-  {
-    id: 4,
-    name: "Facebook",
-    link: "/",
-  },
+  // {
+  //   id: 2,
+  //   name: "YouTube",
+  //   link: "/",
+  // },
+  // {
+  //   id: 3,
+  //   name: "Twitter",
+  //   link: "/",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Facebook",
+  //   link: "/",
+  // },
 ];
 
 const Footer = () => {
@@ -41,7 +42,8 @@ const Footer = () => {
           <h1 className="font-serif font-semibold text-brand-black-og">Socials</h1>
           <div className="flex flex-col gap-2 mt-2">
             {socials.map((social) => (
-              <Link key={social.id} href={social.link} className="underline w-fit text-brand-black-og/80">
+              <Link key={social.id} href={social.link} className="underline w-fit text-brand-black-og/80 flex items-center gap-1">
+                <InstagramIcon className="size-4" />
                 {social.name}
               </Link>
             ))}
@@ -51,15 +53,15 @@ const Footer = () => {
         <div>
             <div>
                 <h1 className="font-serif font-semibold text-brand-black-og">Contact</h1>
-                <p className="text-brand-black-og/80">+91 9136365831 / +91 7249566227</p>
+                <p className="text-brand-black-og/80">+91 9136365831</p>
             </div>
             <div>
                 <h1 className="font-serif font-semibold text-brand-black-og">Email</h1>
-                <a href="mailto:contact@visualstory.in" className="text-brand-black-og/80">contact@visualstory.in</a>
+                <a href="mailto:contact@visualstory.in" className="text-brand-black-og/80">grishmaprabhu909@gmail.com</a>
             </div>
             <div>
                 <h1 className="font-serif font-semibold text-brand-black-og">Location</h1>
-                <p className="text-brand-black-og/80">Pune, Maharashtra</p>
+                <p className="text-brand-black-og/80">Lower Parel, Mumbai</p>
             </div>
         </div>
       </div>

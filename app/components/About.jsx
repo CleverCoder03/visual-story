@@ -18,9 +18,9 @@ const About = () => {
             <div className="relative h-120 w-90">
               <div className="absolute top-0 h-full w-full right-0 bg-gray-600 shadow-2xl rounded-md overflow-hidden">
                 <Image
-                  src="/about-1.jpg"
+                  src="/196A4948.JPG"
                   alt="about-2"
-                  className="object-cover"
+                  className="object-cover object-top"
                   fill
                 />
               </div>

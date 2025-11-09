@@ -9,19 +9,19 @@ const services = [
     id: 1,
     name: "Weddings & Pre-Wedding",
     desc: "Capturing the grand gestures and intimate whispers of your biggest day.",
-    image: "/services-1.jpg",
+    image: "/header-bg-last.jpg",
   },
   {
     id: 2,
     name: "Events & Parties",
     desc: "From birthdays to baby showers, we preserve the joy of every celebration.",
-    image: "/services-3.jpg",
+    image: "/parties.jpg",
   },
   {
     id: 3,
     name: "Portraits & Fashion",
     desc: "Expressive, artistic portraiture that captures the soul of the subject.",
-    image: "/services-2.jpg",
+    image: "/portrait-4.jpg",
   },
   {
     id: 4,

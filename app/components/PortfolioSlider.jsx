@@ -13,11 +13,11 @@ import Image from 'next/image';
 
 // A mock array of image data. Replace this with your actual image data.
 const images = [
-  { id: 1, src: '/services-1.jpg', alt: 'Project 1' },
-  { id: 2, src: '/services-2.jpg', alt: 'Project 2' },
-  { id: 3, src: '/services-3.jpg', alt: 'Project 3' },
-  { id: 4, src: '/services-4.jpg', alt: 'Project 4' },
-  { id: 5, src: '/about-1.jpg', alt: 'Project 5' },
+  { id: 1, src: '/196A4943.jpg', alt: 'Project 1' },
+  { id: 2, src: '/portrait.jpg', alt: 'Project 2' },
+  { id: 3, src: '/portrait-4.jpg', alt: 'Project 3' },
+  { id: 4, src: '/196A4952.jpg', alt: 'Project 4' },
+  { id: 5, src: '/portrait-2.jpg', alt: 'Project 5' },
 ];
 
 export default function PortfolioSlider () {

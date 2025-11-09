@@ -8,10 +8,10 @@ import Button from "./Button";
 
 // Your list of background images
 const images = [
-  "/header-bg.jpg", // Make sure these paths are correct
-  "/header-bg-2.jpg",
-  "/header-bg-3.jpg",
-  "/header-bg-4.jpg",
+  "/196A4840.JPG", 
+  "/196A5007.JPG",
+  "/196A4851.JPG",
+  "/IMG_1503.JPG",
 ];
 
 const HeroSlider = () => {
