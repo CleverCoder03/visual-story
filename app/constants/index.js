@@ -152,35 +152,13 @@ export const events = [
 export const projects = [
   {
     id: 1,
-    title: "Sahil & Sonam",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ducimus! In, maxime odit et vel vero laboriosam illum dolores labore itaque ipsa ut, eveniet amet repellendus commodi eligendi optio obcaecati? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iste impedit blanditiis amet voluptatum maxime quo, sapiente nulla quia dolorem vel autem corrupti iusto quibusdam soluta.",
+    title: "Priya & Rohan Mehta",
+    desc: "From the moment we met the team at A Visual Story, we knew they weren’t ordinary photographers. They listened, really listened, to what our wedding meant to us. On the big day, they captured not just the moments but the emotions behind them, the nervous laughter, the teary eyes of our parents, the quiet glances between us. When we saw the photos, it felt like reliving every heartbeat of that day. Their artistry and empathy are unmatched.",
     images: [
-      { id: 1, src: "/services-1.jpg", alt: "Project 1" },
-      { id: 2, src: "/services-2.jpg", alt: "Project 2" },
-      { id: 3, src: "/services-3.jpg", alt: "Project 3" },
-      { id: 4, src: "/services-4.jpg", alt: "Project 4" }
-    ],
-  },
-  {
-    id: 2,
-    title: "Ankit & Akansha",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ducimus! In, maxime odit et vel vero laboriosam illum dolores labore itaque ipsa ut, eveniet amet repellendus commodi eligendi optio obcaecati? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iste impedit blanditiis amet voluptatum maxime quo, sapiente nulla quia dolorem vel autem corrupti iusto quibusdam soluta.",
-    images: [
-      { id: 1, src: "/services-1.jpg", alt: "Project 1" },
-      { id: 2, src: "/services-2.jpg", alt: "Project 2" },
-      { id: 3, src: "/services-3.jpg", alt: "Project 3" },
-      { id: 4, src: "/services-4.jpg", alt: "Project 4" }
-    ],
-  },
-  {
-    id: 3,
-    title: "Soham & Shilpa",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ducimus! In, maxime odit et vel vero laboriosam illum dolores labore itaque ipsa ut, eveniet amet repellendus commodi eligendi optio obcaecati? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iste impedit blanditiis amet voluptatum maxime quo, sapiente nulla quia dolorem vel autem corrupti iusto quibusdam soluta.",
-    images: [
-      { id: 1, src: "/services-1.jpg", alt: "Project 1" },
-      { id: 2, src: "/services-2.jpg", alt: "Project 2" },
-      { id: 3, src: "/services-3.jpg", alt: "Project 3" },
-      { id: 4, src: "/services-4.jpg", alt: "Project 4" }
+      { id: 1, src: "/gallery-1-1.jpeg", alt: "gallery-1 1" },
+      { id: 2, src: "/gallery-1-2.jpeg", alt: "gallery-1 2" },
+      { id: 3, src: "/gallery-1-3.jpeg", alt: "gallery-1 3" },
+      { id: 4, src: "/gallery-1-4.jpeg", alt: "gallery-1 4" }
     ],
   },
 ];

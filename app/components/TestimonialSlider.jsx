@@ -14,37 +14,37 @@ const testimonials = [
   {
     id: 1,
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit a sed ea et voluptate nisi consequatur. Aspernatur enim rerum consequuntur.",
-    client: "Anisha & Rohan",
-    category: "Wedding Photography",
+      "They didn’t just take photos, they told our love story. Every picture felt alive, capturing emotions, laughter, and unforgettable moments beautifully.",
+    client: "Priya & Rohan Mehta",
+    category: "Wedding Couple",
   },
   {
     id: 2,
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit a sed ea et voluptate nisi consequatur. Aspernatur enim rerum consequuntur.",
-    client: "Jared M.",
-    category: "Corporate Headshots",
+      "A Visual Story turns events into timeless memories. Their seamless presence and stunning storytelling make every moment shine with beauty and meaning.",
+    client: "Simran Arora",
+    category: "Event Curator, Radiant Affairs",
   },
   {
     id: 3,
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit a sed ea et voluptate nisi consequatur. Aspernatur enim rerum consequuntur.",
-    client: "Leena & Priya",
-    category: "Event Coverage",
+      "They understood our vision perfectly. Every photo carried warmth and emotion, turning our wedding chaos into a breathtaking visual masterpiece.",
+    client: "Ankit & Neha Sharma",
+    category: "Wedding Clients",
   },
   {
     id: 4,
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit a sed ea et voluptate nisi consequatur. Aspernatur enim rerum consequuntur.",
-    client: "Carlos G.",
-    category: "Real Estate Photography",
+      "Professional, creative, and human, they made our corporate gala feel alive. Every photo reflected our brand’s culture and vibrant spirit perfectly.",
+    client: "Vivek Nair",
+    category: "Marketing Head, Horizon Tech Events",
   },
   {
     id: 5,
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit a sed ea et voluptate nisi consequatur. Aspernatur enim rerum consequuntur.",
-    client: "The Kim Family",
-    category: "Family Portraits",
+      "Every photo made me relive the joy, laughter, and love. A Visual Story gave us the perfect gift, timeless memories.",
+    client: "Sneha Kapoor",
+    category: "Bride",
   },
 ];
 
