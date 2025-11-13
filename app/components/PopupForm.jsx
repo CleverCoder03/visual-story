@@ -44,9 +44,9 @@ export default function PopupForm() {
     setIsSending(true);
 
     // --- YOUR EMAILJS CREDENTIALS ---
-    const SERVICE_ID = "YOUR_SERVICE_ID";
-    const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-    const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+    const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    const TEMPLATE_ID = process.env.NEXT_PUBLIC_ENQUIRY_TEMPLATE_ID;
+    const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
     // ---------------------------------
 
     // The object here must match the variables in your EmailJS template
@@ -80,9 +80,9 @@ export default function PopupForm() {
 
   return (
     // Overlay
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
+    <div className="fixed inset-0 z-300 flex items-center justify-center bg-black/60 backdrop-blur-sm px-6">
       {/* Modal */}
-      <div className="relative w-full max-w-lg rounded-xl bg-white p-8 shadow-2xl">
+      <div className="relative w-full max-w-lg rounded-xl bg-white py-8 px-5 md:p-8 shadow-2xl">
         {/* Close Button */}
         <button
           onClick={closeModal}
@@ -124,7 +124,7 @@ export default function PopupForm() {
               htmlFor="phone"
               className="block text-sm font-medium text-gray-700 mb-1"
             >
-              Phone (Optional)
+              Phone
             </label>
             <input
               type="tel"
@@ -143,7 +143,7 @@ export default function PopupForm() {
               htmlFor="email"
               className="block text-sm font-medium text-gray-700 mb-1"
             >
-              Email
+              Email (Optional)
             </label>
             <input
               type="email"
@@ -178,7 +178,7 @@ export default function PopupForm() {
             <button
               type="submit"
               disabled={isSending}
-              className="w-full justify-center rounded-md border border-transparent bg-black/80 py-3 px-4 text-sm font-medium text-white shadow-sm hover:bg-black focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full justify-center rounded-md border border-transparent bg-black/80 py-3 px-4 text-sm font-medium text-white shadow-sm hover:bg-black focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
             >
               {isSending ? "Sending..." : "Submit"}
             </button>
